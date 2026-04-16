@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retale Kabongo | Portfolio</title>
+    <title>Retale Kabongo | CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -12,108 +12,110 @@
         }
     </style>
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 flex flex-col min-vh-screen">
+
+    <!-- HEADER / NAVIGATION -->
     <header class="w-full py-8 px-8 md:px-16 lg:px-24">
         <div class="max-w-7xl mx-auto flex justify-between items-start">
-            
-            <!-- Logo / Nom -->
+            <!-- Logo -->
             <div class="flex flex-col">
-                <h1 class="text-xl font-bold leading-tight tracking-tighter uppercase">
+                <a href="index.html" class="text-xl font-bold leading-tight tracking-tighter uppercase">
                     Retale<br>Kabongo
-                </h1>
+                </a>
             </div>
 
             <!-- Navigation -->
             <nav>
                 <ul class="flex items-center space-x-6 text-sm font-medium">
-                    <li>
-                        <a href="cv.html" class="hover:opacity-60 transition-opacity">CV</a>
-                    </li>
+                    <li><a href="cv.html" class="border-b border-black">CV</a></li>
                     <li class="text-gray-400 font-light">|</li>
-                    <li>
-                        <a href="projets.html" class="hover:opacity-60 transition-opacity">Projets</a>
-                    </li>
+                    <li><a href="projets.html" class="hover:opacity-60 transition-opacity">Projets</a></li>
                     <li class="text-gray-400 font-light">|</li>
-                    <li>
-                        <a href="contact.html" class="hover:opacity-60 transition-opacity">Contact</a>
-                    </li>
+                    <li><a href="contact.html" class="hover:opacity-60 transition-opacity">Contact</a></li>
                 </ul>
             </nav>
-
         </div>
     </header>
-    <!-- Contenu principal de la page CV -->
-<main class="max-w-4xl mx-auto px-6 py-12">
-  
-  <h1 class="text-3xl font-bold mb-10">Curriculum vitae</h1>
 
-  <!-- Expérience professionnelle -->
-  <section class="mb-10">
-    <h2 class="text-xl font-bold mb-4">Expérience professionnelle</h2>
-    <h3 class="font-semibold mb-3">Développeuse web en formation</h3>
-    <ul class="list-disc pl-5 space-y-2 text-gray-700">
-      <li>Conception et reproduction d'interfaces utilisateurs avec Figma</li>
-      <li>Intégration web de maquettes responsive (projet Sunnyside) en HTML et CSS</li>
-      <li>Gestion de versions avec Git et Git Bash</li>
-      <li>Développement de projets pratiques pour renforcer les compétences en front-end</li>
-    </ul>
-  </section>
-  <section class="mb-10">
-    <h2 class="text-xl font-bold mb-4">Compétences et expertise</h2>
-    <p class="text-gray-800 mb-2">Conception et développement d'interfaces web simples</p>
-    <ul class="list-disc pl-5 space-y-2 text-gray-700">
-      <li>Mise en pratique des bases en HTML, CSS et JavaScript</li>
-      <li>Participation à la réalisation de projets académiques</li>
-    </ul>
-    
-    <div class="mt-4 space-y-1 text-gray-700">
-      <p>conception des system informatique</p>
-      <p>développement web | html, css, base en javascript</p>
-      <p>Notions en électronique</p>
-    </div>
+    <main class="flex-grow max-w-4xl mx-auto px-6 py-12 w-full">
+        
+        <h1 class="text-3xl font-bold mb-12">Curriculum vitae</h1>
 
-    <ul class="list-disc pl-5 space-y-2 text-gray-700 mt-2">
-      <li>Résolution de problèmes</li>
-      <li>Travail en équipe</li>
-    </ul>
-  </section>
-  <section>
-    <h2 class="text-xl font-bold mb-4">Langues</h2>
-    <ul class="space-y-2 text-gray-700">
-      <li><strong>Français :</strong> courant</li>
-      <li><strong>Anglais :</strong> Niveau 1, Vocabulaire technique</li>
-      <li><strong>Lingala :</strong> courant</li>
-    </ul>
-</main>
-</section>
- <footer class="border-t border-gray-300 py-12 mt-20">
-  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-    
-    <!-- Colonne 1 : Téléphone -->
-    <div>
-      <h3 class="font-bold text-gray-900 mb-2">Téléphone</h3>
-      <p class="text-gray-700">+243840485397</p>
-    </div>
+        <!-- Section 1 : Expérience professionnelle -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold mb-6">Expérience professionnelle</h2>
+            <div class="mb-6">
+                <h3 class="font-medium text-gray-800 mb-4">Développeuse web en formation</h3>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+                    <li>Conception et reproduction d'interfaces utilisateurs avec Figma</li>
+                    <li>Intégration web de maquettes responsive (projet Sunnyside) en HTML et CSS</li>
+                    <li>Gestion de versions avec Git et Git Bash</li>
+                    <li>Développement de projets pratiques pour renforcer les compétences en front-end</li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- Colonne 2 : Email -->
-    <div>
-      <h3 class="font-bold text-gray-900 mb-2">Email</h3>
-      <p class="text-gray-700">retalekabs@gmail.com</p>
-    </div>
+        <!-- Section 2 : Compétences et expertise -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold mb-6">Compétences et expertise</h2>
+            <p class="text-gray-800 mb-4 text-sm">Conception et développement d'interfaces web simples</p>
+            <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm mb-6">
+                <li>Mise en pratique des bases en HTML, CSS et JavaScript</li>
+                <li>Participation à la réalisation de projets académiques</li>
+            </ul>
+            
+            <div class="space-y-1 text-gray-700 text-sm mb-4">
+                <p>conception des system informatique</p>
+                <p>développement web | html, css, base en javascript</p>
+                <p>Notions en électronique</p>
+            </div>
 
-    <!-- Colonne 3 : Suivez-moi -->
-    <div>
-      <h3 class="font-bold text-gray-900 mb-2">Suivez-moi</h3>
-      <!-- Tu pourras ajouter des icônes ici plus tard -->
-    </div>
+            <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+                <li>Résolution de problèmes</li>
+                <li>Travail en équipe</li>
+            </ul>
+        </section>
 
-    <!-- Colonne 4 : Copyright -->
-    <div class="md:text-right">
-      <p class="text-gray-700">© 2026 By Retalekabs</p>
-    </div>
+        <!-- Section 3 : Langues -->
+        <section class="mb-12">
+            <h2 class="text-xl font-bold mb-6">Langues</h2>
+            <ul class="space-y-2 text-gray-700 text-sm">
+                <li><span class="font-bold">Français :</span> courant</li>
+                <li><span class="font-bold">Anglais :</span> Niveau 1, Vocabulaire technique</li>
+                <li><span class="font-bold">Lingala :</span> courant</li>
+            </ul>
+        </section>
+    </main>
 
-  </div>
-</footer>
-</section>
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-300 py-12 mt-10">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+            
+            <!-- Téléphone -->
+            <div>
+                <h3 class="font-bold text-gray-900 mb-2">Téléphone</h3>
+                <p class="text-sm text-gray-700">+243840485397</p>
+            </div>
+
+            <!-- Email -->
+            <div>
+                <h3 class="font-bold text-gray-900 mb-2">Email</h3>
+                <p class="text-sm text-gray-700">retalekabs@gmail.com</p>
+            </div>
+
+            <!-- Suivez-moi -->
+            <div>
+                <h3 class="font-bold text-gray-900 mb-2">Suivez-moi</h3>
+                <!-- Icônes sociales optionnelles ici -->
+            </div>
+
+            <!-- Copyright -->
+            <div class="md:text-right">
+                <p class="text-sm text-gray-700">© 2026 By Retalekabs</p>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
 </html>
