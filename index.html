@@ -13,90 +13,98 @@
     </style>
 </head>
 <body class="bg-white text-gray-900">
-    <header class="w-full py-8 px-8 md:px-16 lg:px-24">
-        <div class="max-w-7xl mx-auto flex justify-between items-start">
+
+    <!-- HEADER : Légèrement plus compact -->
+    <header class="w-full py-6 px-8 md:px-16 lg:px-24">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
             
             <!-- Logo / Nom -->
             <div class="flex flex-col">
-                <h1 class="text-xl font-bold leading-tight tracking-tighter uppercase">
+                <a href="index.html" class="text-lg font-bold leading-tight tracking-tighter uppercase">
                     Retale<br>Kabongo
-                </h1>
+                </a>
             </div>
 
             <!-- Navigation -->
             <nav>
                 <ul class="flex items-center space-x-6 text-sm font-medium">
-                    <li>
-                        <a href="cv.html" class="hover:opacity-60 transition-opacity">CV</a>
-                    </li>
+                    <li><a href="cv.html" class="hover:opacity-60 transition-opacity">CV</a></li>
                     <li class="text-gray-400 font-light">|</li>
-                    <li>
-                        <a href="projets.html" class="hover:opacity-60 transition-opacity">Projets</a>
-                    </li>
+                    <li><a href="projets.html" class="hover:opacity-60 transition-opacity">Projets</a></li>
                     <li class="text-gray-400 font-light">|</li>
-                    <li>
-                        <a href="contact.html" class="hover:opacity-60 transition-opacity">Contact</a>
-                    </li>
+                    <li><a href="contact.html" class="hover:opacity-60 transition-opacity">Contact</a></li>
                 </ul>
             </nav>
-
         </div>
     </header>
-<main class="max-w-7xl mx-auto px-8 md:px-16 lg:px-24 py-16 flex flex-col md:flex-row items-center gap-12 lg:gap-24">
-    <div class="w-64 h-64 md:w-80 md:h-80 lg:w-[450px] lg:h-[450px] shrink-0">
-        <img 
-            src="images/image aceuil.jpeg"  alt="Portrait de Retale Kabongo" class="w-full h-full object-cover rounded-full shadow-xl">
-    </div>
-    <div class="àpropos">
-        <h2 class="text-6xl md:text-8xl font-bold mb-6">Hello</h2>
+
+    <!-- MAIN : Tailles réduites pour plus d'élégance -->
+    <main class="max-w-6xl mx-auto px-8 md:px-16 lg:px-24 py-12 md:py-20 flex flex-col md:flex-row items-center gap-12 lg:gap-20">
         
-        <h3 class="text-xl font-bold mb-4">A propos de moi</h3>
-         <p class="text-gray-700 leading-relaxed mb-10 max-w-xl">
-            Je suis <span class="font-bold">Retale Kabongo</span>, développeuse web en formation, passionnée par la création d'expériences numériques. Avec des bases en électronique et une formation en informatique industrielle, je conçois des solutions alliant logiciel et matériel.
-        </p>
-        <div class="flex flex-wrap gap-4">
-            <a href="cv.html" class="px-8 py-3 bg-[#E6C653] text-black font-semibold rounded-2xl hover:bg-opacity-90 transition shadow-sm">
-                Cv
-            </a>
-            <a href="projets.html" class="px-8 py-3 bg-[#D94F4F] text-white font-semibold rounded-2xl hover:bg-opacity-90 transition shadow-sm">
-                Projets
-            </a>
-            <a href="contact.html" class="px-8 py-3 bg-[#4FC3CC] text-white font-semibold rounded-2xl hover:bg-opacity-90 transition shadow-sm">
-                contacts
-            </a>
+        <!-- Image : Réduite de 450px à 350px max -->
+        <div class="w-56 h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 shrink-0">
+            <img 
+                src="images/image aceuil.jpeg" alt="Portrait de Retale Kabongo" 
+                class="w-full h-full object-cover rounded-full shadow-lg border-4 border-gray-50">
         </div>
-    </div>
-    
 
-</main>
-<footer class="border-t border-gray-300 py-12 mt-20">
-  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-    
-    <!-- Colonne 1 : Téléphone -->
-    <div>
-      <h3 class="font-bold text-gray-900 mb-2">Téléphone</h3>
-      <p class="text-gray-700">+243840485397</p>
-    </div>
+        <!-- Texte à propos -->
+        <div class="flex-1">
+            <!-- Titre Hello : Réduit de 8xl à 6xl -->
+            <h2 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight">Hello</h2>
+            
+            <h3 class="text-lg font-bold mb-3">À propos de moi</h3>
+            <!-- Paragraphe : max-w-md pour éviter que les lignes soient trop longues -->
+            <p class="text-gray-600 leading-relaxed mb-8 max-w-md text-sm md:text-base">
+                Je suis <span class="font-bold text-gray-900">Retale Kabongo</span>, développeuse web en formation, passionnée par la création d'expériences numériques. Avec des bases en électronique et une formation en informatique industrielle, je conçois des solutions alliant logiciel et matériel.
+            </p>
 
-    <!-- Colonne 2 : Email -->
-    <div>
-      <h3 class="font-bold text-gray-900 mb-2">Email</h3>
-      <p class="text-gray-700">retalekabs@gmail.com</p>
-    </div>
+            <!-- Boutons : Un peu plus fins -->
+            <div class="flex flex-wrap gap-3">
+                <a href="cv.html" class="px-6 py-2.5 bg-[#E6C653] text-black font-semibold rounded-xl hover:bg-opacity-90 transition shadow-sm text-sm">
+                    CV
+                </a>
+                <a href="projets.html" class="px-6 py-2.5 bg-[#D94F4F] text-white font-semibold rounded-xl hover:bg-opacity-90 transition shadow-sm text-sm">
+                    Projets
+                </a>
+                <a href="contact.html" class="px-6 py-2.5 bg-[#4FC3CC] text-white font-semibold rounded-xl hover:bg-opacity-90 transition shadow-sm text-sm">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </main>
 
-    <!-- Colonne 3 : Suivez-moi -->
-    <div>
-      <h3 class="font-bold text-gray-900 mb-2">Suivez-moi</h3>
-      <!-- Tu pourras ajouter des icônes ici plus tard -->
-    </div>
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-200 py-10 mt-12">
+        <div class="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="font-bold text-gray-900 text-sm mb-2 uppercase tracking-wider">Téléphone</h3>
+                <p class="text-gray-600 text-sm">+243 840 485 397</p>
+            </div>
 
-    <!-- Colonne 4 : Copyright -->
-    <div class="md:text-right">
-      <p class="text-gray-700">© 2026 By Retalekabs</p>
-    </div>
+            <div>
+                <h3 class="font-bold text-gray-900 text-sm mb-2 uppercase tracking-wider">Email</h3>
+                <p class="text-gray-600 text-sm">retalekabs@gmail.com</p>
+            </div>
 
-  </div>
-</footer>
+            <div>
+                <h3 class="font-bold text-gray-900 text-sm mb-2 uppercase tracking-wider">Suivez-moi</h3>
+                <div class="flex gap-4">
+                    <a href="https://wa.me/+243840485397" target="_blank" class="hover:scale-110 transition-transform">
+                        <img src="images/icones/whatsapp.svg" alt="WhatsApp" class="w-5 h-5">
+                    </a>
+                    <a href="https://instagram.com/etoilefilante_sisbusiness" target="_blank" class="hover:scale-110 transition-transform">
+                        <img src="images/icones/instagram.svg" alt="Instagram" class="w-5 h-5">
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:text-right flex items-end justify-end">
+                <p class="text-xs text-gray-400">© 2026 By Retalekabs</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
+    
